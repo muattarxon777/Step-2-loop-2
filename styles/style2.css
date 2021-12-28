@@ -1,0 +1,189 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #000;
+}
+.site-main{
+  width: 520px;
+  background-color: rgb(241, 238, 43);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: auto;
+}
+.site-main-nav{
+  width: 400px;
+  padding-top: 25px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.site-main-h2{
+  font-family: "Calibri" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  align-items: center;
+}
+.site-main-img{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #444;
+}
+.site-main-account{
+  background-color: #fff;
+  width: 530px;
+  z-index: 1;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 38px;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.site-main-account-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  margin-top: -38px;
+  margin-left: 20px;
+}
+.site-main-form{
+  width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.site-main-form-label{
+  font-family: "Calibri" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #888;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+.site-main-form-input{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border: 0;
+  border-bottom: 1px solid #888;
+  margin-top: 6px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 17px;
+  padding: 5px;
+  padding-left: 0;
+}
+.site-main-form-aside{
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+.smfa-div{
+  flex-direction: column;
+  width: 50%;
+}
+.smfai{
+  width: 100%;
+}
+.site-main-email-label{
+  font-family: "Calibri" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #888;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+.site-main-email-input{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border: 0;
+  border-bottom: 1px solid #888;
+  margin-top: 6px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 17px;
+  padding: 5px;
+  padding-left: 0;
+}
+.site-main-bio-label{
+  font-family: "Calibri" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #888;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+.site-main-bio-input{
+  width: 460px;
+  min-height: 100px;
+  display: block;
+  resize: vertical;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 17px;
+  padding: 5px;
+  padding-left: 0;
+  border: 0;
+  border-bottom: 1px solid #888;
+  padding: 5px;
+}
+.site-main-finish{
+  width: 400px;
+  padding-top: 1px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: space-between;
+  padding-bottom: 1px;
+}
+.site-main-fin-link{
+  text-decoration: none;
+  color: #000;
+}
+.smfl-1{
+  margin-left: auto;
+}
+.smfl-2{
+  margin-left: 25px;
+}
+.site-main-fin-link-h2{
+  font-family: "Calibri" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #555;
+}
+.site-main-fin-link-h2:hover{
+  color: #000;
+}
